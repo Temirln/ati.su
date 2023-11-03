@@ -147,10 +147,19 @@ def main(pages, output_file):
 if __name__ == "__main__":
     import requests
 
-    # 10 Kazakhstan
-    # 1 Russian
-    geo_id = 1
-    skip = 0
+    country_ids = {
+        10:"kazakhstan",
+        # 1:"russian"
+        3:"belarus",
+        2:"ukraine",
+        14:"Uzbekistan",
+        11:"Kyrgystan",
+        7:"Armenia",
+        6:"Lithuania",
+        8:"Moldova",
+        5:"Latvia"
+    }
+
     take = 300
     urls = [
         # Перевозчики
@@ -162,15 +171,16 @@ if __name__ == "__main__":
     ]
 
     links = []
-    for url in urls:
-        res = requests.get(url.format(geo_id=geo_id, skip=skip, take=take))
-        total = res.json()["total_firms_count"]
-        links += [
-            url.format(geo_id=geo_id, skip=take * i, take=take)
-            for i in range(total // take + 1)
-        ]
+    for id,country_name in country_ids.items():
+        for url in urls:
+            res = requests.get(url.format(geo_id=id, skip=0, take=take))
+            total = res.json()["total_firms_count"]
+            links += [
+                url.format(geo_id=id, skip=take * i, take=take)
+                for i in range(total // take + 1)
+            ]
 
-    output_file = "./ati.su/files/ati_rus"
+        output_file = "./ati.su/files/ati_multicountry"
 
     print("Len of Links:", len(links))
 
