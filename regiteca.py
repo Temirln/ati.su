@@ -30,7 +30,7 @@ def parser_data(page, retries=3):
         d["id"] = index
         d["Title"] = soup.find("h2", {"class": "exhib-name"}).get_text().strip()
         d["Country-City"] = soup.find("span", {"id": "lbCity"}).get_text().strip()
-        d['url'] = p
+        d["url"] = p
         exhib = soup.find_all("div", {"class": "exhib-web"})
         for e in exhib:
             if e.find("i", {"class": "fas fa-phone"}):
@@ -104,11 +104,11 @@ def main(pages, output_file):
 
 if __name__ == "__main__":
     urls = [
-        ("translogistica","TransKazakhstan"),
-        ("kazbuilds","KazBuild"),
-        ("kihe","KIHE"),
-        ("securex","SECUREX%20Kazakhstan"),
-        ("mining_metals","MMCA")
+        ("translogistica_01.12.2023", "TransKazakhstan"),
+        ("kazbuilds_01.12.2023", "KazBuild"),
+        ("kihe_01.12.2023", "KIHE"),
+        ("securex_01.12.2023", "SECUREX%20Kazakhstan"),
+        ("mining_metals_01.12.2023", "MMCA"),
     ]
 
     base_url = "https://reg.iteca.kz/list/s/en/auth_s.aspx?ExhCode={}%202023"
@@ -121,12 +121,12 @@ if __name__ == "__main__":
         soup = BeautifulSoup(res.content, "html.parser")
         links = [
             (
-                index+1,
+                index + 1,
                 f'https://reg.iteca.kz/list/en/detailsfull.aspx?link={a.find("a").get("href").split("?link=")[1]}',
             )
             for index, a in enumerate(soup.find_all("div", {"class": "exhib-name"}))
         ]
-        output_file = f"./ati.su/files/{file}"
+        output_file = f"./ati.su/xlsx_files/{file}"
         print("Len of Links:", len(links))
 
         main(links, output_file)

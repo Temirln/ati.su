@@ -24,9 +24,7 @@ def logger(log_level=logging.DEBUG) -> logging:
         "%(asctime)s - %(levelname)s - %(name)s : %(message)s"
     )
 
-    fh = logging.FileHandler(
-        "./ati.su/custom_utils/logger.log", mode="a", encoding="UTF-8"
-    )
+    fh = logging.FileHandler("logger.log", mode="a", encoding="UTF-8")
 
     fh.setFormatter(formatter)
     logger.addHandler(fh)
