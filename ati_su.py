@@ -1,11 +1,11 @@
 import multiprocessing
 import re
 
-import fake_useragent
 import pandas as pd
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from tqdm import tqdm
+import traceback
 
 from custom_utils.scrap_utils import MAX_RETRIES, logger
 
@@ -19,16 +19,23 @@ log = logger()
 def get_all_links(page, retries=MAX_RETRIES):
     try:
         base_url = "https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/"
-        user = fake_useragent.UserAgent().random
-        headers = {"User-Agent": user}
-        res = session.get(page, headers=headers, verify=False)
+        headers = {
+            'Content-Type': 'application/json',
+            "Accept": 'application/json',
+            "Content-Type": 'application/json',
+            "User-Agent": "ati_integrator_9782442",
+            "Accept-Encoding": "gzip, deflate, br"
+        }
+        res = session.get(page, headers=headers)
         json_data = res.json()
+
         return [f"{base_url}{firm['firm']['ati_id']}" for firm in json_data["firms"]]
 
     except (
         requests.exceptions.Timeout,
         requests.exceptions.HTTPError,
         requests.exceptions.ConnectionError,
+        KeyError
     ) as e:
         if retries > 0:
             log.warning(f"ALL_LINKS Retrying {page} due to error: {e}")
@@ -37,6 +44,7 @@ def get_all_links(page, retries=MAX_RETRIES):
             log.debug(f"ALL_LINKS Max retries reached with link {page}. Error: {e}")
             return []
     except Exception as e:
+        print("LAST EXCEPTION:",traceback.format_exc())
         log.error(f"ALL_LINKS Exception occured in {page}, error: {e}")
         return []
 
@@ -51,29 +59,48 @@ def get_attribute(json_data, key):
 def parser_data(page, retries=MAX_RETRIES):
 
     contact_url = "https://ati.su/gw/atiwebroot/public/v1/api/passport/getContacts/{}"
-    email_url = "https://ati.su/api/email/getEmail/{}/{}"
+    # email_url = "https://ati.su/api/email/getEmail/{}/{}" #TODO: RATE LIMITER 30 requests per day
 
     contact_email_headers = {
         "cookie": "_gcl_au=1.1.738173245.1698820354; tmr_lvid=8171fce759644a1d22aab21b802045ec; tmr_lvidTS=1698820366365; _ym_uid=1698820371505633408; _ym_d=1698820371; did=rvmNAeQXWZ416f5Ss90hyWGDsf8mJHkmCfYdPFeLvq8%3D; sid=8008576b4ffb4973b417a42f6d9c20e8; efid=%5E%5EVBQGB; _ymab_param=wTwnaHHskVQ1UgNYXt9gWjQpEamPS1RiaXLHQ5k8QlYAWZ5cQZR4smCO4GHouetAuFPOkPowWGGbB2OH88oBUjR5Mag; _ga_14VPSGD0HN=deleted; atisuReferrer=utm_campaign=new_header; uicult=en-US; uicult2=en; _ga=GA1.2.1187309523.1698820362; _ga_Z6YM1FRK5D=GS1.2.1698985173.11.1.1698986624.60.0.0; _ga_14VPSGD0HN=GS1.1.1698985172.12.1.1698987027.0.0.0"
     }
 
-    # if len(page) > 2:
-    #     print(page)
-
     try:
         index, p = page
-        user = fake_useragent.UserAgent().random
-        headers = {"User-Agent": user}
+        headers = {
+            'authority': 'ati.su',
+            'accept': 'application/json, text/plain, */*',
+            'accept-language': 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7',
+            'cookie': 'uicult2=ru; _gcl_au=1.1.2119184884.1698926444; tmr_lvid=3e14f29eeb7a25532b6d5f6825aa2b59; tmr_lvidTS=1624637996182; _ymab_param=ube9aEMKpvi68iFEtwJtZ1xG5mjCB7Bmy1bT0AYI08qP9tFP068fLR0L9h3c4TIMq8h9oNR6_svi5iG_QekuJGRELuM; _ym_uid=1624637996362972713; _ym_d=1698926445; did=fC6aIwQN9xGaBBrF4MsIq9QRAPOYQthR10a7Wf%2FflCw%3D; efid=%5E%5EVBQGB; _ga=GA1.2.1678171963.1698926444; _ga_Z6YM1FRK5D=GS1.2.1698926445.1.1.1698926815.53.0.0; _ga_14VPSGD0HN=GS1.1.1698926444.1.1.1698927284.0.0.0; AtiGeo=0_0_0_26',
+            'referer': 'https://ati.su/',
+            'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+        }
+        # headers = {
+        #     # 'Content-Type': 'application/json',
+        #     # "Accept": 'application/json',
+        #     # "Content-Type": 'application/json',
+        #     # "User-Agent": "ati_integrator_9782442",
+        #     # "Accept-Encoding": "gzip, deflate, br"
+        # }
+
 
         d = {}
         link_res = session.get(p, headers=headers, verify=False)
         
 
         json_data = link_res.json()
+        
 
         pattern = r"\+77\d{9}"
         ati_id = get_attribute(json_data, "atiId")
 
+        
         contact_res = session.get(
             contact_url.format(ati_id), headers=contact_email_headers, verify=False
         )
@@ -92,38 +119,18 @@ def parser_data(page, retries=MAX_RETRIES):
         d["Country Name"] = get_attribute(json_data, "countryName")
         d["Ownership"] = json_data["ownership"]["name"].strip()
 
-        # print(contact_data)
         phone_numbers = []
         for data in contact_data.values():
             phone_numbers.append(data["phoneInfo"]["phone"])
             phone_numbers.append(data["mobileInfo"]["phone"])
             phone_numbers.append(data["faxInfo"]["phone"])
 
-        phone_numbers = list(set(phone_numbers))
-        # print(phone_numbers)
-        if "" in phone_numbers:
-            phone_numbers.remove("")
-        # print(phone_numbers)
+        
 
-        d["Phone Numbers"] = ";\n ".join(phone_numbers)
-
-        email_addresses = []
-        # for mail in contact_data.keys(): #TODO: Rate Limiter Problem
-        #     email_res = session.get(
-        #         email_url.format(ati_id, mail),
-        #         headers=contact_email_headers,
-        #         verify=False,
-        #     ).json()
-        #     # print(email_res)
-        #     email_addresses.append(email_res["Message"])
-
-        # email_addresses = list(set(email_addresses))
-
-        # print(email_addresses)
-        # email_addresses.remove("")
-        # print(email_addresses)
-
-        d["Email Adresses"] = "\n ".join(email_addresses)
+        
+        phone_numbers = list(set(filter(lambda x: x != "" and x != None, phone_numbers)))
+        d["Phone Numbers"] = " ; ".join(phone_numbers)
+        d["Email Adresses"] = "" 
 
         try:
             d["Additional Phone Number"] = re.search(pattern, str(json_data)).group()
@@ -139,6 +146,7 @@ def parser_data(page, retries=MAX_RETRIES):
         requests.exceptions.Timeout,
         requests.exceptions.HTTPError,
         requests.exceptions.ConnectionError,
+        KeyError
     ) as e:
         if retries > 0:
             log.warning(f"Index: {index} Retrying {p} due to error: {e}")
@@ -148,6 +156,7 @@ def parser_data(page, retries=MAX_RETRIES):
             return {}
 
     except Exception as e:
+        print(traceback.format_exc())
         log.error(f"Index: {index} Exception occured in {p}, error: {e}")
         return {}
 
@@ -228,8 +237,8 @@ if __name__ == "__main__":
                 for i in range(total // take + 1)
             ]
 
-        output_file = "./xlsx_files/ati_rus_01.12.2023"
+        output_file = "./xlsx_files/ati_rus_04.12.2023"
 
     print("Len of Links:", len(links))
 
-    main(links, output_file)
+    main(links[:1], output_file)
