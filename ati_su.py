@@ -108,7 +108,7 @@ def parser_data(page, retries=MAX_RETRIES):
         contact_data = contact_res.json()
 
 
-        d["Position"] = index
+        # d["Position"] = index
         d["Url Link"] = f"https://ati.su/firms/{json_data['atiId']}/info"
         d["atiId"] = ati_id
         d["Firm Name"] = get_attribute(json_data, "firmName")
@@ -184,7 +184,7 @@ def main(pages, output_file):
     results = list(filter(lambda x: bool(x), results))
 
     print("Length of actual results:", len(results))
-    results = sorted(results, key=lambda x: x["Position"])
+    # results = sorted(results, key=lambda x: x["Position"])
 
     print("!!! Saving data to files xlsx and csv !!!")
     df = pd.DataFrame(data=results)
@@ -222,9 +222,9 @@ if __name__ == "__main__":
         # Перевозчики
         "https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId={geo_id}&geoTypeId=0&reverse=false&skip={skip}&take={take}&verified=false",
         # Грузовладельцы
-        "https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=3&firmTypes=6&geoId={geo_id}&geoTypeId=0&reverse=false&skip={skip}&take={take}&verified=false",
+        # "https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=3&firmTypes=6&geoId={geo_id}&geoTypeId=0&reverse=false&skip={skip}&take={take}&verified=false",
         # Экспедиторы
-        "https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=2&firmTypes=4&firmTypes=5&geoId={geo_id}&geoTypeId=0&reverse=false&skip={skip}&take={take}&verified=false",
+        # "https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=2&firmTypes=4&firmTypes=5&geoId={geo_id}&geoTypeId=0&reverse=false&skip={skip}&take={take}&verified=false",
     ]
 
     links = []
@@ -237,8 +237,8 @@ if __name__ == "__main__":
                 for i in range(total // take + 1)
             ]
 
-        output_file = "./xlsx_files/ati_rus_04.12.2023"
+        output_file = "./xlsx_files/ati_rus_transporter_04.12.2023"
 
     print("Len of Links:", len(links))
 
-    main(links[:1], output_file)
+    main(links, output_file)
