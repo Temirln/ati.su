@@ -237,8 +237,8 @@ if __name__ == "__main__":
                 for i in range(total // take + 1)
             ]
 
-        output_file = "./xlsx_files/ati_rus_transporter_04.12.2023"
+        output_file = "./xlsx_files/ati_rus_transporter_(100-200)_04.12.2023"
 
     print("Len of Links:", len(links))
 
-    main(links, output_file)
+    main(links[100:200], output_file)

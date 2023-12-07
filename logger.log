@@ -38,64 +38,890 @@ FROM HERE RUSSIA CONTACTS
 2023-12-06 03:29:33,088 - ERROR - <module> : Index: 36644 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8900943, error: Expecting value: line 1 column 1 (char 0)
 
 ПЕРЕВОЗЧИКИ
-2023-12-06 04:08:24,095 - INFO - <module> : Time Sleep: 7
-2023-12-06 04:08:31,046 - INFO - <module> : Time Sleep: 14
-2023-12-06 04:08:38,029 - INFO - <module> : Time Sleep: 21
-2023-12-06 04:09:00,061 - INFO - <module> : Time Sleep: 28
-2023-12-06 04:09:07,033 - INFO - <module> : Time Sleep: 35
-2023-12-06 04:09:14,295 - INFO - <module> : Time Sleep: 42
-2023-12-06 04:09:21,621 - INFO - <module> : Time Sleep: 49
-2023-12-06 04:09:28,889 - INFO - <module> : Time Sleep: 56
-2023-12-06 04:09:36,355 - INFO - <module> : Time Sleep: 63
-2023-12-06 04:09:43,636 - INFO - <module> : Time Sleep: 70
-2023-12-06 04:09:51,296 - INFO - <module> : Time Sleep: 77
-2023-12-06 04:09:58,639 - INFO - <module> : Time Sleep: 84
-2023-12-06 04:10:06,008 - INFO - <module> : Time Sleep: 91
-2023-12-06 04:10:13,341 - INFO - <module> : Time Sleep: 98
-2023-12-06 04:10:20,694 - INFO - <module> : Time Sleep: 105
-2023-12-06 04:10:27,980 - INFO - <module> : Time Sleep: 112
-2023-12-06 04:10:35,321 - INFO - <module> : Time Sleep: 119
-2023-12-06 04:10:42,699 - INFO - <module> : Time Sleep: 126
-2023-12-06 04:10:50,060 - INFO - <module> : Time Sleep: 133
-2023-12-06 04:10:57,364 - INFO - <module> : Time Sleep: 140
-2023-12-06 04:11:04,812 - INFO - <module> : Time Sleep: 147
-2023-12-06 04:11:12,071 - INFO - <module> : Time Sleep: 154
-2023-12-06 04:11:19,441 - INFO - <module> : Time Sleep: 161
-2023-12-06 04:11:26,799 - INFO - <module> : Time Sleep: 168
-2023-12-06 04:11:34,143 - INFO - <module> : Time Sleep: 175
-2023-12-06 04:11:41,451 - INFO - <module> : Time Sleep: 182
-2023-12-06 04:11:48,761 - INFO - <module> : Time Sleep: 189
-2023-12-06 04:11:56,350 - INFO - <module> : Time Sleep: 196
-2023-12-06 04:12:04,025 - INFO - <module> : Time Sleep: 203
-2023-12-06 04:12:11,298 - INFO - <module> : Time Sleep: 210
-2023-12-06 04:12:18,650 - INFO - <module> : Time Sleep: 217
-2023-12-06 04:12:25,969 - INFO - <module> : Time Sleep: 224
-2023-12-06 04:12:33,197 - INFO - <module> : Time Sleep: 231
-2023-12-06 04:12:40,564 - INFO - <module> : Time Sleep: 238
-2023-12-06 04:12:47,608 - INFO - <module> : Time Sleep: 245
-2023-12-06 04:12:54,481 - INFO - <module> : Time Sleep: 252
-2023-12-06 04:13:01,434 - INFO - <module> : Time Sleep: 259
-2023-12-06 04:13:08,489 - INFO - <module> : Time Sleep: 266
-2023-12-06 04:13:15,406 - INFO - <module> : Time Sleep: 273
-2023-12-06 04:13:22,325 - INFO - <module> : Time Sleep: 280
-2023-12-06 04:13:29,285 - INFO - <module> : Time Sleep: 287
-2023-12-06 04:13:36,249 - INFO - <module> : Time Sleep: 294
-2023-12-06 04:13:43,267 - INFO - <module> : Time Sleep: 301
-2023-12-06 04:13:50,186 - INFO - <module> : Time Sleep: 308
-2023-12-06 04:13:57,055 - INFO - <module> : Time Sleep: 315
-2023-12-06 04:14:04,009 - INFO - <module> : Time Sleep: 322
-2023-12-06 04:14:10,897 - INFO - <module> : Time Sleep: 329
-2023-12-06 04:14:17,786 - INFO - <module> : Time Sleep: 336
-2023-12-06 04:14:24,788 - INFO - <module> : Time Sleep: 343
-2023-12-06 04:14:31,711 - INFO - <module> : Time Sleep: 350
-2023-12-06 04:14:38,671 - INFO - <module> : Time Sleep: 357
-2023-12-06 04:14:46,676 - INFO - <module> : Time Sleep: 364
-2023-12-06 04:14:53,595 - INFO - <module> : Time Sleep: 371
-2023-12-06 04:15:00,490 - INFO - <module> : Time Sleep: 378
-2023-12-06 04:15:07,502 - INFO - <module> : Time Sleep: 385
-2023-12-06 04:15:14,365 - INFO - <module> : Time Sleep: 392
-2023-12-06 04:15:21,330 - INFO - <module> : Time Sleep: 399
-2023-12-06 04:15:28,275 - INFO - <module> : Time Sleep: 406
-2023-12-06 04:15:35,228 - INFO - <module> : Time Sleep: 413
-2023-12-06 04:15:42,281 - INFO - <module> : Time Sleep: 420
-2023-12-06 04:15:49,229 - INFO - <module> : Time Sleep: 427
+2023-12-07 09:15:04,651 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=27600&take=300&verified=false due to error: 'firms'
+2023-12-07 09:43:57,371 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=34800&take=300&verified=false due to error: 'firms'
+2023-12-07 09:43:57,496 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=35100&take=300&verified=false due to error: 'firms'
+2023-12-07 09:43:58,601 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=36900&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:00,668 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=35100&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:01,034 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:01,751 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=38100&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:03,823 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=39300&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:04,122 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:04,863 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=39600&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:07,216 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:10,367 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:12,220 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=43500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:13,550 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:16,643 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=37500&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:18,238 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=45900&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:19,181 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=47400&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:25,098 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=50400&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:28,188 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=50400&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:31,279 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=50400&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:31,885 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=54300&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:34,443 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=56100&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:35,048 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=54300&take=300&verified=false due to error: 'firms'
+2023-12-07 09:44:37,592 - WARNING - <module> : ALL_LINKS Retrying https://ati.su/gw/rating-page-service/public/v1/rating?atiDocs=false&atiOrders=false&autopark=false&firmTypes=1&geoId=1&geoTypeId=0&reverse=false&skip=56100&take=300&verified=false due to error: 'firms'
+2023-12-07 09:45:35,173 - ERROR - <module> : Index: 1026 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3874105, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:00:59,199 - ERROR - <module> : Index: 20000 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3610561, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:00:59,202 - ERROR - <module> : Index: 20001 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3411818, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:00:59,568 - ERROR - <module> : Index: 20006 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3315600, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,166 - ERROR - <module> : Index: 20013 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3907614, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,177 - ERROR - <module> : Index: 20011 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3772148, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,177 - ERROR - <module> : Index: 20014 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3221711, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,177 - ERROR - <module> : Index: 20017 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3707713, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,177 - ERROR - <module> : Index: 20015 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3387164, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,178 - ERROR - <module> : Index: 20010 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3363800, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,185 - ERROR - <module> : Index: 20016 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3882353, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,185 - ERROR - <module> : Index: 20012 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3651770, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,472 - ERROR - <module> : Index: 20020 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3349984, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,472 - ERROR - <module> : Index: 20022 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3452154, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,477 - ERROR - <module> : Index: 20023 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3555631, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,481 - ERROR - <module> : Index: 20019 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3671606, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,490 - ERROR - <module> : Index: 20021 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3839409, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,570 - ERROR - <module> : Index: 20025 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5175920, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,570 - ERROR - <module> : Index: 20024 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3399002, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,768 - ERROR - <module> : Index: 20026 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9468483, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,778 - ERROR - <module> : Index: 20027 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3414353, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,793 - ERROR - <module> : Index: 20030 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3391010, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,793 - ERROR - <module> : Index: 20029 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3313212, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,855 - ERROR - <module> : Index: 20028 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3821433, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,855 - ERROR - <module> : Index: 20032 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3942284, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,855 - ERROR - <module> : Index: 20031 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6809844, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:01,983 - ERROR - <module> : Index: 20033 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3619026, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,108 - ERROR - <module> : Index: 20036 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3635132, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,111 - ERROR - <module> : Index: 20037 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3449226, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,165 - ERROR - <module> : Index: 20034 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3643774, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,166 - ERROR - <module> : Index: 20040 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3368177, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,168 - ERROR - <module> : Index: 20035 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3356486, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,168 - ERROR - <module> : Index: 20038 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3443348, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,177 - ERROR - <module> : Index: 20039 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3944997, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,508 - ERROR - <module> : Index: 20041 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3292640, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,641 - ERROR - <module> : Index: 20042 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3863064, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,642 - ERROR - <module> : Index: 20045 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3590480, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,646 - ERROR - <module> : Index: 20043 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3547751, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,651 - ERROR - <module> : Index: 20047 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3454650, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,651 - ERROR - <module> : Index: 20044 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3534180, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,692 - ERROR - <module> : Index: 20048 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3355784, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,692 - ERROR - <module> : Index: 20046 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3348928, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:02,803 - ERROR - <module> : Index: 20049 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3768551, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,035 - ERROR - <module> : Index: 20051 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3331407, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,038 - ERROR - <module> : Index: 20055 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3584333, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,040 - ERROR - <module> : Index: 20050 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3612010, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,040 - ERROR - <module> : Index: 20054 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3481313, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,042 - ERROR - <module> : Index: 20056 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3635572, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,042 - ERROR - <module> : Index: 20053 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3396715, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,042 - ERROR - <module> : Index: 20052 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5099500, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,133 - ERROR - <module> : Index: 20057 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8185056, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,434 - ERROR - <module> : Index: 20059 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3736178, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,466 - ERROR - <module> : Index: 20063 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3341343, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,469 - ERROR - <module> : Index: 20064 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3296390, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,469 - ERROR - <module> : Index: 20058 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3830533, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,469 - ERROR - <module> : Index: 20061 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3672439, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,469 - ERROR - <module> : Index: 20060 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3528985, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,469 - ERROR - <module> : Index: 20062 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3346393, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,531 - ERROR - <module> : Index: 20065 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3485474, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,893 - ERROR - <module> : Index: 20072 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3346515, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,894 - ERROR - <module> : Index: 20070 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3328299, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,896 - ERROR - <module> : Index: 20067 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3380280, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,932 - ERROR - <module> : Index: 20071 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3368541, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,938 - ERROR - <module> : Index: 20068 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3550936, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,938 - ERROR - <module> : Index: 20069 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3553604, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,942 - ERROR - <module> : Index: 20066 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3235841, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:03,946 - ERROR - <module> : Index: 20073 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3920582, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,313 - ERROR - <module> : Index: 20079 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3514564, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,313 - ERROR - <module> : Index: 20081 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3633132, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,314 - ERROR - <module> : Index: 20078 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3869770, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,314 - ERROR - <module> : Index: 20075 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5994932, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,313 - ERROR - <module> : Index: 20074 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3613567, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,317 - ERROR - <module> : Index: 20080 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3910616, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,319 - ERROR - <module> : Index: 20077 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5996603, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,642 - ERROR - <module> : Index: 20086 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7765016, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,642 - ERROR - <module> : Index: 20087 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/929260, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,642 - ERROR - <module> : Index: 20088 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7445140, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,645 - ERROR - <module> : Index: 20084 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4481094, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,645 - ERROR - <module> : Index: 20082 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3395891, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,647 - ERROR - <module> : Index: 20085 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4988910, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,670 - ERROR - <module> : Index: 20089 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/191615, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,947 - ERROR - <module> : Index: 20090 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/441330, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,952 - ERROR - <module> : Index: 20095 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7172128, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,952 - ERROR - <module> : Index: 20093 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2702465, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,964 - ERROR - <module> : Index: 20091 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1236720, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,967 - ERROR - <module> : Index: 20097 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3218478, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,967 - ERROR - <module> : Index: 20094 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3370368, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:04,986 - ERROR - <module> : Index: 20092 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7428188, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,041 - ERROR - <module> : Index: 20096 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6965076, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,306 - ERROR - <module> : Index: 20098 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8395262, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,306 - ERROR - <module> : Index: 20102 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/364000, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,306 - ERROR - <module> : Index: 20105 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/238163, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,306 - ERROR - <module> : Index: 20103 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/498889, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,306 - ERROR - <module> : Index: 20101 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/548377, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,307 - ERROR - <module> : Index: 20100 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3304243, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,307 - ERROR - <module> : Index: 20099 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7660087, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,702 - ERROR - <module> : Index: 20104 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3679289, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,901 - ERROR - <module> : Index: 20112 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2713666, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,901 - ERROR - <module> : Index: 20106 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/392372, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,961 - ERROR - <module> : Index: 20109 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3831962, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,969 - ERROR - <module> : Index: 20110 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2945402, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,975 - ERROR - <module> : Index: 20108 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2846751, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,983 - ERROR - <module> : Index: 20111 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3779770, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:05,983 - ERROR - <module> : Index: 20107 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1829559, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,189 - ERROR - <module> : Index: 20113 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5593106, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,287 - ERROR - <module> : Index: 20115 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2977871, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,294 - ERROR - <module> : Index: 20118 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1952294, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,298 - ERROR - <module> : Index: 20114 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3704469, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,298 - ERROR - <module> : Index: 20120 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2399331, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,302 - ERROR - <module> : Index: 20116 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1308095, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,303 - ERROR - <module> : Index: 20117 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/830358, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,309 - ERROR - <module> : Index: 20119 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2225593, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,484 - ERROR - <module> : Index: 20121 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/150583, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,596 - ERROR - <module> : Index: 20123 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7165980, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,600 - ERROR - <module> : Index: 20122 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3444053, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,604 - ERROR - <module> : Index: 20126 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3337123, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,604 - ERROR - <module> : Index: 20127 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3220182, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,605 - ERROR - <module> : Index: 20124 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3686051, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,609 - ERROR - <module> : Index: 20125 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3107349, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,609 - ERROR - <module> : Index: 20128 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3570117, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,806 - ERROR - <module> : Index: 20129 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3459724, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,895 - ERROR - <module> : Index: 20130 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3471508, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,895 - ERROR - <module> : Index: 20133 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3372109, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,900 - ERROR - <module> : Index: 20134 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8115643, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,900 - ERROR - <module> : Index: 20131 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9136511, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,909 - ERROR - <module> : Index: 20132 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3313782, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,920 - ERROR - <module> : Index: 20136 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3265706, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:06,920 - ERROR - <module> : Index: 20135 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3270734, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,102 - ERROR - <module> : Index: 20137 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3644075, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,185 - ERROR - <module> : Index: 20140 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2464648, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,188 - ERROR - <module> : Index: 20142 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/138431, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,192 - ERROR - <module> : Index: 20139 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1823315, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,209 - ERROR - <module> : Index: 20141 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3253108, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,220 - ERROR - <module> : Index: 20138 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1175874, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,285 - ERROR - <module> : Index: 20144 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1972970, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,286 - ERROR - <module> : Index: 20143 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2702409, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,390 - ERROR - <module> : Index: 20145 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3980240, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,516 - ERROR - <module> : Index: 20147 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3524203, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,525 - ERROR - <module> : Index: 20149 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/272093, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,537 - ERROR - <module> : Index: 20150 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/857723, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,537 - ERROR - <module> : Index: 20148 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3900067, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,538 - ERROR - <module> : Index: 20146 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3810675, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,617 - ERROR - <module> : Index: 20151 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2429622, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,617 - ERROR - <module> : Index: 20152 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3176677, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,721 - ERROR - <module> : Index: 20153 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/310825, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,816 - ERROR - <module> : Index: 20154 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/348348, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:07,817 - ERROR - <module> : Index: 20155 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3219561, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,161 - ERROR - <module> : Index: 20160 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2961212, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,161 - ERROR - <module> : Index: 20156 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/169100, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,162 - ERROR - <module> : Index: 20158 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1190188, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,162 - ERROR - <module> : Index: 20157 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/454790, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,164 - ERROR - <module> : Index: 20163 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3670142, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,202 - ERROR - <module> : Index: 20162 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3305387, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,207 - ERROR - <module> : Index: 20161 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3308969, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,207 - ERROR - <module> : Index: 20159 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3973676, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,531 - ERROR - <module> : Index: 20166 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7502950, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,538 - ERROR - <module> : Index: 20171 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2053303, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,540 - ERROR - <module> : Index: 20169 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/601450, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,540 - ERROR - <module> : Index: 20165 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3732701, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,542 - ERROR - <module> : Index: 20164 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3506551, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,542 - ERROR - <module> : Index: 20168 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5161626, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,684 - ERROR - <module> : Index: 20170 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1458880, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,744 - ERROR - <module> : Index: 20167 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2995974, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,911 - ERROR - <module> : Index: 20177 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3761545, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,911 - ERROR - <module> : Index: 20175 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/230485, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,911 - ERROR - <module> : Index: 20176 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3103181, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,911 - ERROR - <module> : Index: 20172 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2117428, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,912 - ERROR - <module> : Index: 20173 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3444646, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:08,912 - ERROR - <module> : Index: 20174 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3114479, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,067 - ERROR - <module> : Index: 20179 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/82209, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,079 - ERROR - <module> : Index: 20178 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3803846, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,298 - ERROR - <module> : Index: 20184 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5788633, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,304 - ERROR - <module> : Index: 20185 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5976475, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,304 - ERROR - <module> : Index: 20182 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8621581, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,304 - ERROR - <module> : Index: 20180 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3605802, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,310 - ERROR - <module> : Index: 20181 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2057478, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,310 - ERROR - <module> : Index: 20183 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6002561, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,495 - ERROR - <module> : Index: 20187 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2747071, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,495 - ERROR - <module> : Index: 20186 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3133648, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,727 - ERROR - <module> : Index: 20192 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3509626, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,727 - ERROR - <module> : Index: 20193 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2953603, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,734 - ERROR - <module> : Index: 20191 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2866592, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,734 - ERROR - <module> : Index: 20190 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2861230, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,740 - ERROR - <module> : Index: 20188 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3621542, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,740 - ERROR - <module> : Index: 20189 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2789370, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,878 - ERROR - <module> : Index: 20194 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2964749, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:09,893 - ERROR - <module> : Index: 20195 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3836122, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,124 - ERROR - <module> : Index: 20201 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3145804, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,125 - ERROR - <module> : Index: 20198 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3997054, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,140 - ERROR - <module> : Index: 20199 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8634025, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,141 - ERROR - <module> : Index: 20196 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3805180, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,141 - ERROR - <module> : Index: 20200 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3102892, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,141 - ERROR - <module> : Index: 20197 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2996399, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,321 - ERROR - <module> : Index: 20203 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3176527, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,322 - ERROR - <module> : Index: 20202 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3176210, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,540 - ERROR - <module> : Index: 20205 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3212360, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,546 - ERROR - <module> : Index: 20208 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3330777, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,547 - ERROR - <module> : Index: 20204 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3193832, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,547 - ERROR - <module> : Index: 20207 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3977941, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,547 - ERROR - <module> : Index: 20209 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3416243, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,547 - ERROR - <module> : Index: 20206 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3617243, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,815 - ERROR - <module> : Index: 20210 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3625455, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,960 - ERROR - <module> : Index: 20217 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3857075, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,975 - ERROR - <module> : Index: 20213 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7724276, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,975 - ERROR - <module> : Index: 20216 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3708227, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,981 - ERROR - <module> : Index: 20212 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3309800, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,981 - ERROR - <module> : Index: 20214 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3282075, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,981 - ERROR - <module> : Index: 20211 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8720938, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:10,986 - ERROR - <module> : Index: 20215 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3529661, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,349 - ERROR - <module> : Index: 20221 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3408128, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,350 - ERROR - <module> : Index: 20219 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3939375, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,433 - ERROR - <module> : Index: 20220 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3994134, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,437 - ERROR - <module> : Index: 20224 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3861585, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,437 - ERROR - <module> : Index: 20225 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3849175, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,438 - ERROR - <module> : Index: 20222 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3920306, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,438 - ERROR - <module> : Index: 20223 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3810912, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,439 - ERROR - <module> : Index: 20218 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3595266, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,709 - ERROR - <module> : Index: 20227 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6959223, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,727 - ERROR - <module> : Index: 20226 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3415584, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,808 - ERROR - <module> : Index: 20231 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/734259, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,824 - ERROR - <module> : Index: 20233 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/611116, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,824 - ERROR - <module> : Index: 20230 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5786385, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,824 - ERROR - <module> : Index: 20228 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3349544, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:11,824 - ERROR - <module> : Index: 20232 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3545082, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,019 - ERROR - <module> : Index: 20235 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8712825, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,022 - ERROR - <module> : Index: 20234 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3912500, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,124 - ERROR - <module> : Index: 20240 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7460130, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,141 - ERROR - <module> : Index: 20236 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2616743, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,149 - ERROR - <module> : Index: 20239 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3598478, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,149 - ERROR - <module> : Index: 20241 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2217958, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,160 - ERROR - <module> : Index: 20238 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3204743, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,160 - ERROR - <module> : Index: 20237 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2922281, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,334 - ERROR - <module> : Index: 20242 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3977743, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,438 - ERROR - <module> : Index: 20243 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/326172, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,635 - ERROR - <module> : Index: 20244 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2312996, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,643 - ERROR - <module> : Index: 20245 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1056475, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,646 - ERROR - <module> : Index: 20249 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2674518, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,646 - ERROR - <module> : Index: 20250 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2277274, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,646 - ERROR - <module> : Index: 20248 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2468012, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,650 - ERROR - <module> : Index: 20246 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3582574, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,650 - ERROR - <module> : Index: 20247 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1869944, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,755 - ERROR - <module> : Index: 20251 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4720412, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:12,971 - ERROR - <module> : Index: 20252 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2728439, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,080 - ERROR - <module> : Index: 20259 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2838128, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,080 - ERROR - <module> : Index: 20257 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3207908, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,083 - ERROR - <module> : Index: 20253 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2463354, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,083 - ERROR - <module> : Index: 20256 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2708120, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,083 - ERROR - <module> : Index: 20258 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2798571, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,083 - ERROR - <module> : Index: 20255 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2568341, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,083 - ERROR - <module> : Index: 20254 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9995501, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,354 - ERROR - <module> : Index: 20260 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5877396, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,454 - ERROR - <module> : Index: 20263 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2965432, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,454 - ERROR - <module> : Index: 20261 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2917180, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,454 - ERROR - <module> : Index: 20266 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3018953, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,456 - ERROR - <module> : Index: 20264 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3269604, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,457 - ERROR - <module> : Index: 20267 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3456299, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,473 - ERROR - <module> : Index: 20265 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3015157, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,654 - ERROR - <module> : Index: 20268 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3469401, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,768 - ERROR - <module> : Index: 20272 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3475439, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,769 - ERROR - <module> : Index: 20274 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9289557, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,769 - ERROR - <module> : Index: 20275 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3316694, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,769 - ERROR - <module> : Index: 20273 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3386568, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,773 - ERROR - <module> : Index: 20271 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3171515, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:13,789 - ERROR - <module> : Index: 20270 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3922246, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,066 - ERROR - <module> : Index: 20276 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3563406, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,070 - ERROR - <module> : Index: 20269 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3131263, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,087 - ERROR - <module> : Index: 20278 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3323976, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,087 - ERROR - <module> : Index: 20279 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3646423, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,087 - ERROR - <module> : Index: 20281 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4869260, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,087 - ERROR - <module> : Index: 20280 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3759337, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,167 - ERROR - <module> : Index: 20282 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3693121, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,169 - ERROR - <module> : Index: 20277 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3829784, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,374 - ERROR - <module> : Index: 20284 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3853314, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,382 - ERROR - <module> : Index: 20285 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3220973, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,382 - ERROR - <module> : Index: 20286 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3567280, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,382 - ERROR - <module> : Index: 20283 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3963137, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,388 - ERROR - <module> : Index: 20288 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9306187, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,476 - ERROR - <module> : Index: 20289 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3733764, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,476 - ERROR - <module> : Index: 20290 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4462332, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,702 - ERROR - <module> : Index: 20291 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/640301, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,702 - ERROR - <module> : Index: 20295 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6814014, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,702 - ERROR - <module> : Index: 20292 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2672434, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,702 - ERROR - <module> : Index: 20293 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2812444, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,702 - ERROR - <module> : Index: 20294 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8868524, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,817 - ERROR - <module> : Index: 20296 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8250739, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,817 - ERROR - <module> : Index: 20297 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2501803, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,992 - ERROR - <module> : Index: 20298 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2468136, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:14,998 - ERROR - <module> : Index: 20299 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3190703, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,007 - ERROR - <module> : Index: 20300 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5867053, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,013 - ERROR - <module> : Index: 20301 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2882898, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,088 - ERROR - <module> : Index: 20302 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3268861, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,205 - ERROR - <module> : Index: 20304 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3158637, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,355 - ERROR - <module> : Index: 20306 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3776481, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,355 - ERROR - <module> : Index: 20307 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3390623, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,355 - ERROR - <module> : Index: 20303 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3104009, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,356 - ERROR - <module> : Index: 20287 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3784354, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,356 - ERROR - <module> : Index: 20305 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3173653, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,422 - ERROR - <module> : Index: 20309 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3294899, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,498 - ERROR - <module> : Index: 20310 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3752845, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,498 - ERROR - <module> : Index: 20308 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8143746, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,624 - ERROR - <module> : Index: 20312 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3894551, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,719 - ERROR - <module> : Index: 20315 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3850210, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,719 - ERROR - <module> : Index: 20313 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3787969, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,722 - ERROR - <module> : Index: 20311 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3912487, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,724 - ERROR - <module> : Index: 20316 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3894961, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,724 - ERROR - <module> : Index: 20314 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3298252, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,808 - ERROR - <module> : Index: 20318 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3510381, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:15,808 - ERROR - <module> : Index: 20317 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3517873, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,028 - ERROR - <module> : Index: 20323 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3814689, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,030 - ERROR - <module> : Index: 20324 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7655149, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,030 - ERROR - <module> : Index: 20322 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3826644, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,030 - ERROR - <module> : Index: 20321 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3397483, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,030 - ERROR - <module> : Index: 20320 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3635355, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,119 - ERROR - <module> : Index: 20325 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3767316, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,127 - ERROR - <module> : Index: 20326 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3420792, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,455 - ERROR - <module> : Index: 20327 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2334238, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,455 - ERROR - <module> : Index: 20329 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5384275, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,456 - ERROR - <module> : Index: 20332 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3966738, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,457 - ERROR - <module> : Index: 20334 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3818841, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,458 - ERROR - <module> : Index: 20330 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2545940, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,460 - ERROR - <module> : Index: 20333 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3475465, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,875 - ERROR - <module> : Index: 20337 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2735293, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,880 - ERROR - <module> : Index: 20341 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2081883, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,889 - ERROR - <module> : Index: 20340 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1829719, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,889 - ERROR - <module> : Index: 20339 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5418908, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,889 - ERROR - <module> : Index: 20338 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3241488, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,893 - ERROR - <module> : Index: 20335 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3395810, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,893 - ERROR - <module> : Index: 20336 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3517490, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:16,893 - ERROR - <module> : Index: 20342 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2094190, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,313 - ERROR - <module> : Index: 20345 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3464188, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,314 - ERROR - <module> : Index: 20346 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7523214, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,323 - ERROR - <module> : Index: 20347 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/157802, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,323 - ERROR - <module> : Index: 20343 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2172363, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,323 - ERROR - <module> : Index: 20349 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1777274, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,324 - ERROR - <module> : Index: 20348 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/197330, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,324 - ERROR - <module> : Index: 20344 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3345855, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,747 - ERROR - <module> : Index: 20354 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3986275, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,747 - ERROR - <module> : Index: 20355 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2589025, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,748 - ERROR - <module> : Index: 20358 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3444703, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,748 - ERROR - <module> : Index: 20356 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2890725, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,748 - ERROR - <module> : Index: 20357 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7617824, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,749 - ERROR - <module> : Index: 20352 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5776835, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:17,749 - ERROR - <module> : Index: 20353 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3581582, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,067 - ERROR - <module> : Index: 20360 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5214108, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,069 - ERROR - <module> : Index: 20366 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2021693, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,069 - ERROR - <module> : Index: 20359 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5997557, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,070 - ERROR - <module> : Index: 20362 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3059339, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,070 - ERROR - <module> : Index: 20361 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7613498, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,072 - ERROR - <module> : Index: 20365 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2011240, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,072 - ERROR - <module> : Index: 20363 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2090408, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,156 - ERROR - <module> : Index: 20364 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2304833, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,369 - ERROR - <module> : Index: 20372 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3651105, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,381 - ERROR - <module> : Index: 20367 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2922683, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,381 - ERROR - <module> : Index: 20373 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3402017, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,381 - ERROR - <module> : Index: 20371 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3507451, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,381 - ERROR - <module> : Index: 20370 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2925770, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,382 - ERROR - <module> : Index: 20368 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2171385, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,470 - ERROR - <module> : Index: 20374 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4267936, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,668 - ERROR - <module> : Index: 20379 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3926720, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,677 - ERROR - <module> : Index: 20380 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3388414, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,683 - ERROR - <module> : Index: 20377 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2622552, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,686 - ERROR - <module> : Index: 20375 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2539120, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,686 - ERROR - <module> : Index: 20378 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3327509, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,686 - ERROR - <module> : Index: 20369 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3058177, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,699 - ERROR - <module> : Index: 20376 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2945684, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,773 - ERROR - <module> : Index: 20381 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3794887, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,986 - ERROR - <module> : Index: 20384 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3726590, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,992 - ERROR - <module> : Index: 20382 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3408840, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,992 - ERROR - <module> : Index: 20383 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3139649, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,992 - ERROR - <module> : Index: 20385 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6255708, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,997 - ERROR - <module> : Index: 20387 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2876977, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:18,998 - ERROR - <module> : Index: 20386 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2866848, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,089 - ERROR - <module> : Index: 20389 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2886999, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,089 - ERROR - <module> : Index: 20388 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/38808, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,296 - ERROR - <module> : Index: 20395 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2928744, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,297 - ERROR - <module> : Index: 20392 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3693390, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,306 - ERROR - <module> : Index: 20393 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3872851, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,306 - ERROR - <module> : Index: 20394 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2928017, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,306 - ERROR - <module> : Index: 20391 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2901368, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,395 - ERROR - <module> : Index: 20390 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2901208, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,398 - ERROR - <module> : Index: 20396 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3746404, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,398 - ERROR - <module> : Index: 20397 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3734763, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,598 - ERROR - <module> : Index: 20399 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8584690, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,598 - ERROR - <module> : Index: 20398 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3972390, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,715 - ERROR - <module> : Index: 20400 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8746737, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,715 - ERROR - <module> : Index: 20404 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9009816, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,719 - ERROR - <module> : Index: 20403 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3553854, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,719 - ERROR - <module> : Index: 20402 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3202665, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,719 - ERROR - <module> : Index: 20401 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3054093, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,894 - ERROR - <module> : Index: 20407 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/161819, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:19,898 - ERROR - <module> : Index: 20406 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/577692, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,022 - ERROR - <module> : Index: 20410 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/891389, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,022 - ERROR - <module> : Index: 20411 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8850488, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,023 - ERROR - <module> : Index: 20408 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3446595, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,025 - ERROR - <module> : Index: 20412 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/775241, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,025 - ERROR - <module> : Index: 20405 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/25312, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,026 - ERROR - <module> : Index: 20409 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3893594, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,233 - ERROR - <module> : Index: 20414 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1413842, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,311 - ERROR - <module> : Index: 20413 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/964736, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,316 - ERROR - <module> : Index: 20416 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2652011, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,328 - ERROR - <module> : Index: 20418 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1866679, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,465 - ERROR - <module> : Index: 20419 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2409951, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,465 - ERROR - <module> : Index: 20417 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1132113, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,465 - ERROR - <module> : Index: 20420 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3991032, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,466 - ERROR - <module> : Index: 20415 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3096783, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,656 - ERROR - <module> : Index: 20421 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2427183, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,656 - ERROR - <module> : Index: 20422 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2583222, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,661 - ERROR - <module> : Index: 20424 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3003512, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,662 - ERROR - <module> : Index: 20423 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3528284, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,867 - ERROR - <module> : Index: 20425 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7355248, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,868 - ERROR - <module> : Index: 20427 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2871667, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,869 - ERROR - <module> : Index: 20426 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2683034, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:20,869 - ERROR - <module> : Index: 20428 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4351159, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,032 - ERROR - <module> : Index: 20429 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2836810, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,032 - ERROR - <module> : Index: 20432 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3121177, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,035 - ERROR - <module> : Index: 20431 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3077240, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,035 - ERROR - <module> : Index: 20430 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3918094, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,256 - ERROR - <module> : Index: 20434 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3901319, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,260 - ERROR - <module> : Index: 20435 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3154886, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,265 - ERROR - <module> : Index: 20433 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3992185, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,265 - ERROR - <module> : Index: 20436 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3363651, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,330 - ERROR - <module> : Index: 20437 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3174158, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,338 - ERROR - <module> : Index: 20440 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3414236, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,341 - ERROR - <module> : Index: 20438 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3364157, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,541 - ERROR - <module> : Index: 20439 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3353449, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,769 - ERROR - <module> : Index: 20441 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3616178, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,769 - ERROR - <module> : Index: 20443 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3467798, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,769 - ERROR - <module> : Index: 20444 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8982888, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,769 - ERROR - <module> : Index: 20442 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3570806, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,777 - ERROR - <module> : Index: 20445 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3832747, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,781 - ERROR - <module> : Index: 20447 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3481861, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:21,868 - ERROR - <module> : Index: 20448 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4501442, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,048 - ERROR - <module> : Index: 20450 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3453606, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,164 - ERROR - <module> : Index: 20449 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3470418, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,170 - ERROR - <module> : Index: 20453 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3800726, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,175 - ERROR - <module> : Index: 20452 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3980713, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,175 - ERROR - <module> : Index: 20455 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4222816, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,183 - ERROR - <module> : Index: 20451 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5720335, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,183 - ERROR - <module> : Index: 20456 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2513947, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,183 - ERROR - <module> : Index: 20454 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6621459, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,373 - ERROR - <module> : Index: 20457 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1054331, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,461 - ERROR - <module> : Index: 20458 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2768681, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,477 - ERROR - <module> : Index: 20461 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2433865, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,483 - ERROR - <module> : Index: 20459 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1879219, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,483 - ERROR - <module> : Index: 20460 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1863517, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,582 - ERROR - <module> : Index: 20464 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2533352, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,582 - ERROR - <module> : Index: 20463 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2752276, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,583 - ERROR - <module> : Index: 20462 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3124731, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,765 - ERROR - <module> : Index: 20465 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2716391, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,772 - ERROR - <module> : Index: 20466 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3745437, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,773 - ERROR - <module> : Index: 20468 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3759210, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,874 - ERROR - <module> : Index: 20470 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3050734, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,876 - ERROR - <module> : Index: 20467 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3183905, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,876 - ERROR - <module> : Index: 20469 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3038038, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,877 - ERROR - <module> : Index: 20471 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3073229, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:22,877 - ERROR - <module> : Index: 20472 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3670901, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,081 - ERROR - <module> : Index: 20475 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3157532, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,081 - ERROR - <module> : Index: 20474 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3126666, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,084 - ERROR - <module> : Index: 20473 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3101551, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,192 - ERROR - <module> : Index: 20478 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3208980, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,205 - ERROR - <module> : Index: 20476 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3184444, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,205 - ERROR - <module> : Index: 20479 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3214941, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,205 - ERROR - <module> : Index: 20480 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4057055, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,206 - ERROR - <module> : Index: 20477 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3187168, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,408 - ERROR - <module> : Index: 20482 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3485740, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,408 - ERROR - <module> : Index: 20483 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3340591, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,418 - ERROR - <module> : Index: 20481 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3315358, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,489 - ERROR - <module> : Index: 20484 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3891155, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,622 - ERROR - <module> : Index: 20485 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3546360, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,628 - ERROR - <module> : Index: 20487 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3677698, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,632 - ERROR - <module> : Index: 20488 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3596676, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,799 - ERROR - <module> : Index: 20492 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3339107, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,808 - ERROR - <module> : Index: 20489 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3996710, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,819 - ERROR - <module> : Index: 20490 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8624083, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:23,819 - ERROR - <module> : Index: 20491 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3713884, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,068 - ERROR - <module> : Index: 20496 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1146572, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,068 - ERROR - <module> : Index: 20495 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1318173, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,068 - ERROR - <module> : Index: 20494 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3920326, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,069 - ERROR - <module> : Index: 20493 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3840111, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,278 - ERROR - <module> : Index: 20500 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/411124, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,279 - ERROR - <module> : Index: 20497 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3838877, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,278 - ERROR - <module> : Index: 20498 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/180286, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,451 - ERROR - <module> : Index: 20501 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9164090, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,451 - ERROR - <module> : Index: 20504 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2380895, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,460 - ERROR - <module> : Index: 20499 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2151903, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,460 - ERROR - <module> : Index: 20502 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3408298, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,461 - ERROR - <module> : Index: 20503 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3583417, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,644 - ERROR - <module> : Index: 20507 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3779019, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,658 - ERROR - <module> : Index: 20506 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2438519, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,659 - ERROR - <module> : Index: 20505 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/804037, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,893 - ERROR - <module> : Index: 20508 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3045418, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,893 - ERROR - <module> : Index: 20510 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2523378, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,894 - ERROR - <module> : Index: 20512 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1107126, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:24,895 - ERROR - <module> : Index: 20509 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3591842, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,055 - ERROR - <module> : Index: 20515 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3423587, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,055 - ERROR - <module> : Index: 20514 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3765770, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,056 - ERROR - <module> : Index: 20513 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1460035, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,277 - ERROR - <module> : Index: 20518 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/364710, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,285 - ERROR - <module> : Index: 20516 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3483795, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,291 - ERROR - <module> : Index: 20520 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3007790, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,298 - ERROR - <module> : Index: 20517 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/31654, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,311 - ERROR - <module> : Index: 20519 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5006345, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,466 - ERROR - <module> : Index: 20521 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3593888, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,467 - ERROR - <module> : Index: 20523 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3848675, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,468 - ERROR - <module> : Index: 20522 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/783436, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,709 - ERROR - <module> : Index: 20526 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3757158, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,709 - ERROR - <module> : Index: 20525 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3038725, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,712 - ERROR - <module> : Index: 20527 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3176719, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,712 - ERROR - <module> : Index: 20524 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/1975498, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,879 - ERROR - <module> : Index: 20531 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2904782, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,880 - ERROR - <module> : Index: 20530 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2962401, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,881 - ERROR - <module> : Index: 20529 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2671976, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:25,888 - ERROR - <module> : Index: 20528 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2568301, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,067 - ERROR - <module> : Index: 20533 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2490273, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,089 - ERROR - <module> : Index: 20535 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2372766, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,089 - ERROR - <module> : Index: 20532 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3491715, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,090 - ERROR - <module> : Index: 20534 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5302941, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,293 - ERROR - <module> : Index: 20539 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3424578, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,294 - ERROR - <module> : Index: 20536 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3227527, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,294 - ERROR - <module> : Index: 20537 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2273487, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,294 - ERROR - <module> : Index: 20538 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5072567, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,486 - ERROR - <module> : Index: 20542 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2632288, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,512 - ERROR - <module> : Index: 20543 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2151625, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,513 - ERROR - <module> : Index: 20541 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2122474, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,513 - ERROR - <module> : Index: 20540 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4145415, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,676 - ERROR - <module> : Index: 20546 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3083488, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,718 - ERROR - <module> : Index: 20545 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3533336, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,719 - ERROR - <module> : Index: 20547 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3169560, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,719 - ERROR - <module> : Index: 20544 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3382313, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,973 - ERROR - <module> : Index: 20551 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2436486, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,976 - ERROR - <module> : Index: 20548 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6071067, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:26,976 - ERROR - <module> : Index: 20549 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3906772, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,061 - ERROR - <module> : Index: 20550 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2552436, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,064 - ERROR - <module> : Index: 20553 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7588398, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,068 - ERROR - <module> : Index: 20554 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3071093, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,084 - ERROR - <module> : Index: 20555 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2734577, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,279 - ERROR - <module> : Index: 20552 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3152358, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,279 - ERROR - <module> : Index: 20556 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7615411, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,279 - ERROR - <module> : Index: 20557 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8581652, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,279 - ERROR - <module> : Index: 20558 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3385552, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,392 - ERROR - <module> : Index: 20560 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3494056, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,397 - ERROR - <module> : Index: 20561 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3128626, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,397 - ERROR - <module> : Index: 20559 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2660088, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,397 - ERROR - <module> : Index: 20562 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2727883, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,594 - ERROR - <module> : Index: 20564 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3948934, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,610 - ERROR - <module> : Index: 20563 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5680477, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,610 - ERROR - <module> : Index: 20565 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2743049, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,829 - ERROR - <module> : Index: 20569 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2970084, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,830 - ERROR - <module> : Index: 20566 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2744391, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,830 - ERROR - <module> : Index: 20567 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3713004, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,838 - ERROR - <module> : Index: 20568 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2771657, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:27,899 - ERROR - <module> : Index: 20571 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3264602, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,094 - ERROR - <module> : Index: 20570 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3609669, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,094 - ERROR - <module> : Index: 20573 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2834285, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,109 - ERROR - <module> : Index: 20572 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3282709, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,305 - ERROR - <module> : Index: 20574 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2861425, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,306 - ERROR - <module> : Index: 20575 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2868580, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,306 - ERROR - <module> : Index: 20578 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3194228, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,319 - ERROR - <module> : Index: 20576 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5774581, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,321 - ERROR - <module> : Index: 20577 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3597898, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,399 - ERROR - <module> : Index: 20580 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2935743, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,403 - ERROR - <module> : Index: 20579 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3135133, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,408 - ERROR - <module> : Index: 20581 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4943203, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,647 - ERROR - <module> : Index: 20582 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2965282, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,647 - ERROR - <module> : Index: 20584 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2994518, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,718 - ERROR - <module> : Index: 20585 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3011835, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,718 - ERROR - <module> : Index: 20583 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3329066, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,718 - ERROR - <module> : Index: 20589 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3031119, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,815 - ERROR - <module> : Index: 20586 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3234390, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,824 - ERROR - <module> : Index: 20587 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9973177, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:28,906 - ERROR - <module> : Index: 20588 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3023062, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,013 - ERROR - <module> : Index: 20591 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3061898, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,017 - ERROR - <module> : Index: 20594 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9578437, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,020 - ERROR - <module> : Index: 20592 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3062813, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,020 - ERROR - <module> : Index: 20593 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3932413, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,020 - ERROR - <module> : Index: 20590 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3456788, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,106 - ERROR - <module> : Index: 20595 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9605453, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,118 - ERROR - <module> : Index: 20596 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3677452, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,217 - ERROR - <module> : Index: 20597 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3118366, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,330 - ERROR - <module> : Index: 20600 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3139236, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,331 - ERROR - <module> : Index: 20602 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3665165, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,331 - ERROR - <module> : Index: 20599 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3539356, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,331 - ERROR - <module> : Index: 20601 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3141752, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,331 - ERROR - <module> : Index: 20598 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3127416, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,429 - ERROR - <module> : Index: 20603 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3151049, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,439 - ERROR - <module> : Index: 20604 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3153487, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,511 - ERROR - <module> : Index: 20605 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3153650, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,637 - ERROR - <module> : Index: 20606 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3774296, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,643 - ERROR - <module> : Index: 20607 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3157361, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,652 - ERROR - <module> : Index: 20610 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3858570, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,652 - ERROR - <module> : Index: 20609 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3902903, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,653 - ERROR - <module> : Index: 20608 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3162623, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,739 - ERROR - <module> : Index: 20612 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3172193, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,749 - ERROR - <module> : Index: 20611 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3171323, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,835 - ERROR - <module> : Index: 20613 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3172607, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,929 - ERROR - <module> : Index: 20615 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3173851, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,930 - ERROR - <module> : Index: 20616 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3177957, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,930 - ERROR - <module> : Index: 20618 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3183864, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,930 - ERROR - <module> : Index: 20614 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3173741, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:29,951 - ERROR - <module> : Index: 20617 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3178229, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,027 - ERROR - <module> : Index: 20619 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4546600, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,027 - ERROR - <module> : Index: 20620 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3191977, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,129 - ERROR - <module> : Index: 20621 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3323666, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,232 - ERROR - <module> : Index: 20623 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3206657, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,237 - ERROR - <module> : Index: 20625 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3875121, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,238 - ERROR - <module> : Index: 20624 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3206673, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,238 - ERROR - <module> : Index: 20622 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3198285, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,238 - ERROR - <module> : Index: 20626 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3209234, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,331 - ERROR - <module> : Index: 20627 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3432374, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,339 - ERROR - <module> : Index: 20628 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3693932, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,432 - ERROR - <module> : Index: 20629 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3916757, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,540 - ERROR - <module> : Index: 20631 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3360435, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,545 - ERROR - <module> : Index: 20634 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3539677, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,548 - ERROR - <module> : Index: 20630 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3958088, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,551 - ERROR - <module> : Index: 20632 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3946831, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,551 - ERROR - <module> : Index: 20633 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3328765, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,646 - ERROR - <module> : Index: 20635 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3762440, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,646 - ERROR - <module> : Index: 20636 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3521919, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,681 - ERROR - <module> : Index: 20637 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8284346, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,848 - ERROR - <module> : Index: 20638 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3529505, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:30,858 - ERROR - <module> : Index: 20639 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3868269, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,073 - ERROR - <module> : Index: 20645 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3932799, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,175 - ERROR - <module> : Index: 20646 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3623444, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,383 - ERROR - <module> : Index: 20649 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3678453, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,383 - ERROR - <module> : Index: 20647 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3590573, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,383 - ERROR - <module> : Index: 20651 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3662254, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,383 - ERROR - <module> : Index: 20650 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8713871, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,384 - ERROR - <module> : Index: 20653 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3260195, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,384 - ERROR - <module> : Index: 20648 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3530199, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,389 - ERROR - <module> : Index: 20652 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3261478, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,480 - ERROR - <module> : Index: 20654 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3814597, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,674 - ERROR - <module> : Index: 20660 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3604727, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,683 - ERROR - <module> : Index: 20657 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3510502, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,683 - ERROR - <module> : Index: 20659 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3942689, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,683 - ERROR - <module> : Index: 20658 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3521952, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,683 - ERROR - <module> : Index: 20655 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3569022, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,691 - ERROR - <module> : Index: 20656 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3979901, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,695 - ERROR - <module> : Index: 20661 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3629323, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:31,814 - ERROR - <module> : Index: 20662 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3477212, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,005 - ERROR - <module> : Index: 20665 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3658045, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,016 - ERROR - <module> : Index: 20663 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3972412, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,020 - ERROR - <module> : Index: 20669 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3515970, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,020 - ERROR - <module> : Index: 20664 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3942846, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,020 - ERROR - <module> : Index: 20668 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3646606, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,020 - ERROR - <module> : Index: 20667 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3422934, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,020 - ERROR - <module> : Index: 20666 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3259816, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,201 - ERROR - <module> : Index: 20670 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3679093, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,312 - ERROR - <module> : Index: 20671 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3463388, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,388 - ERROR - <module> : Index: 20675 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3987368, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,388 - ERROR - <module> : Index: 20672 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3865809, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,394 - ERROR - <module> : Index: 20676 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3840772, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,397 - ERROR - <module> : Index: 20674 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3974109, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,399 - ERROR - <module> : Index: 20673 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3870934, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,400 - ERROR - <module> : Index: 20677 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3836245, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,500 - ERROR - <module> : Index: 20678 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3978265, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,595 - ERROR - <module> : Index: 20679 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3566200, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,702 - ERROR - <module> : Index: 20680 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3582550, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,728 - ERROR - <module> : Index: 20682 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3657999, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,804 - ERROR - <module> : Index: 20684 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3587165, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,807 - ERROR - <module> : Index: 20685 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3545615, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,807 - ERROR - <module> : Index: 20683 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3551309, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,807 - ERROR - <module> : Index: 20681 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3572048, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,821 - ERROR - <module> : Index: 20686 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3257170, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:32,905 - ERROR - <module> : Index: 20687 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3679725, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,010 - ERROR - <module> : Index: 20688 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3950261, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,119 - ERROR - <module> : Index: 20693 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3509517, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,127 - ERROR - <module> : Index: 20690 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3615366, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,147 - ERROR - <module> : Index: 20689 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3821588, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,147 - ERROR - <module> : Index: 20692 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8132264, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,147 - ERROR - <module> : Index: 20691 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3271278, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,147 - ERROR - <module> : Index: 20694 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3366647, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,368 - ERROR - <module> : Index: 20696 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3987620, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,370 - ERROR - <module> : Index: 20695 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3311310, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,412 - ERROR - <module> : Index: 20697 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3464371, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,554 - ERROR - <module> : Index: 20701 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2943796, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,554 - ERROR - <module> : Index: 20699 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/7789718, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,565 - ERROR - <module> : Index: 20700 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9262403, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,566 - ERROR - <module> : Index: 20698 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3600421, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,567 - ERROR - <module> : Index: 20702 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/5972921, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,770 - ERROR - <module> : Index: 20704 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3302205, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,771 - ERROR - <module> : Index: 20703 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2684788, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,784 - ERROR - <module> : Index: 20705 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2702300, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,987 - ERROR - <module> : Index: 20706 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3982549, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,987 - ERROR - <module> : Index: 20707 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3609862, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,987 - ERROR - <module> : Index: 20710 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2982117, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:33,988 - ERROR - <module> : Index: 20709 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2772766, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,039 - ERROR - <module> : Index: 20708 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8893164, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,157 - ERROR - <module> : Index: 20711 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3890845, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,170 - ERROR - <module> : Index: 20713 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2921792, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,171 - ERROR - <module> : Index: 20712 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2797743, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,423 - ERROR - <module> : Index: 20716 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3947942, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,424 - ERROR - <module> : Index: 20718 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3063126, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,427 - ERROR - <module> : Index: 20715 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/6029914, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,426 - ERROR - <module> : Index: 20717 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3050128, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,427 - ERROR - <module> : Index: 20714 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3323100, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,592 - ERROR - <module> : Index: 20720 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2880240, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,592 - ERROR - <module> : Index: 20719 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2869240, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,657 - ERROR - <module> : Index: 20721 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2898926, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,770 - ERROR - <module> : Index: 20724 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3667535, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,782 - ERROR - <module> : Index: 20722 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/9217124, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,782 - ERROR - <module> : Index: 20726 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2964821, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,783 - ERROR - <module> : Index: 20723 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4653452, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,783 - ERROR - <module> : Index: 20725 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/2963383, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,959 - ERROR - <module> : Index: 20728 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3315791, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:34,968 - ERROR - <module> : Index: 20729 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3006348, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,060 - ERROR - <module> : Index: 20727 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/4438230, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,200 - ERROR - <module> : Index: 20733 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3065976, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,200 - ERROR - <module> : Index: 20731 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3417871, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,200 - ERROR - <module> : Index: 20732 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3055871, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,201 - ERROR - <module> : Index: 20730 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3461509, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,201 - ERROR - <module> : Index: 20734 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3962662, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,279 - ERROR - <module> : Index: 20736 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3095341, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,279 - ERROR - <module> : Index: 20735 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/8348506, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,367 - ERROR - <module> : Index: 20737 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3259116, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,588 - ERROR - <module> : Index: 20744 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3479342, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,588 - ERROR - <module> : Index: 20740 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3126417, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,593 - ERROR - <module> : Index: 20741 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3423014, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,593 - ERROR - <module> : Index: 20738 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3108904, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,593 - ERROR - <module> : Index: 20743 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3163931, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,678 - ERROR - <module> : Index: 20745 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3186632, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:01:35,678 - ERROR - <module> : Index: 20742 Exception occured in https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/3629841, error: Expecting value: line 1 column 1 (char 0)
+2023-12-07 10:31:36,121 - INFO - <module> : Time Sleep: 7
+2023-12-07 10:31:43,283 - INFO - <module> : Time Sleep: 14
+2023-12-07 10:31:50,622 - INFO - <module> : Time Sleep: 21
+2023-12-07 10:31:57,543 - INFO - <module> : Time Sleep: 28
+2023-12-07 10:32:04,445 - INFO - <module> : Time Sleep: 35
+2023-12-07 10:32:11,449 - INFO - <module> : Time Sleep: 42
+2023-12-07 10:32:18,345 - INFO - <module> : Time Sleep: 49
+2023-12-07 10:32:25,317 - INFO - <module> : Time Sleep: 56
+2023-12-07 10:32:32,260 - INFO - <module> : Time Sleep: 63
+2023-12-07 10:32:39,183 - INFO - <module> : Time Sleep: 70
+2023-12-07 10:32:46,097 - INFO - <module> : Time Sleep: 77
+2023-12-07 10:32:52,991 - INFO - <module> : Time Sleep: 84
+2023-12-07 10:32:59,907 - INFO - <module> : Time Sleep: 91
+2023-12-07 10:33:06,808 - INFO - <module> : Time Sleep: 98
+2023-12-07 10:33:13,708 - INFO - <module> : Time Sleep: 105
+2023-12-07 10:33:20,641 - INFO - <module> : Time Sleep: 112
+2023-12-07 10:33:27,562 - INFO - <module> : Time Sleep: 119
+2023-12-07 10:33:34,420 - INFO - <module> : Time Sleep: 126
+2023-12-07 10:33:41,386 - INFO - <module> : Time Sleep: 133
+2023-12-07 10:33:48,360 - INFO - <module> : Time Sleep: 140
+2023-12-07 10:33:55,222 - INFO - <module> : Time Sleep: 147
+2023-12-07 10:34:02,156 - INFO - <module> : Time Sleep: 154
+2023-12-07 10:34:09,147 - INFO - <module> : Time Sleep: 161
+2023-12-07 10:34:16,089 - INFO - <module> : Time Sleep: 168
+2023-12-07 10:34:22,976 - INFO - <module> : Time Sleep: 175
+2023-12-07 10:34:29,898 - INFO - <module> : Time Sleep: 182
+2023-12-07 10:34:36,777 - INFO - <module> : Time Sleep: 189
+2023-12-07 10:34:43,733 - INFO - <module> : Time Sleep: 196
+2023-12-07 10:34:50,612 - INFO - <module> : Time Sleep: 203
+2023-12-07 10:34:57,877 - INFO - <module> : Time Sleep: 210
+2023-12-07 10:35:04,813 - INFO - <module> : Time Sleep: 217
+2023-12-07 10:35:12,100 - INFO - <module> : Time Sleep: 224
+2023-12-07 10:35:19,036 - INFO - <module> : Time Sleep: 231
+2023-12-07 10:35:25,924 - INFO - <module> : Time Sleep: 238
+2023-12-07 10:35:32,807 - INFO - <module> : Time Sleep: 245
+2023-12-07 10:35:39,782 - INFO - <module> : Time Sleep: 252
+2023-12-07 10:35:46,635 - INFO - <module> : Time Sleep: 259
+2023-12-07 10:35:53,576 - INFO - <module> : Time Sleep: 266
+2023-12-07 10:36:00,507 - INFO - <module> : Time Sleep: 273
+2023-12-07 10:36:07,394 - INFO - <module> : Time Sleep: 280
+2023-12-07 10:36:14,326 - INFO - <module> : Time Sleep: 287
+2023-12-07 10:36:21,270 - INFO - <module> : Time Sleep: 294
+2023-12-07 10:36:28,177 - INFO - <module> : Time Sleep: 301
+2023-12-07 10:36:35,076 - INFO - <module> : Time Sleep: 308
+2023-12-07 10:36:42,041 - INFO - <module> : Time Sleep: 315
+2023-12-07 10:36:48,971 - INFO - <module> : Time Sleep: 322
+2023-12-07 10:36:55,901 - INFO - <module> : Time Sleep: 329
+2023-12-07 10:37:02,881 - INFO - <module> : Time Sleep: 336
+2023-12-07 10:37:09,778 - INFO - <module> : Time Sleep: 343
+2023-12-07 10:37:16,750 - INFO - <module> : Time Sleep: 350
+2023-12-07 10:37:23,641 - INFO - <module> : Time Sleep: 357
+2023-12-07 10:37:30,500 - INFO - <module> : Time Sleep: 364
+2023-12-07 10:37:37,419 - INFO - <module> : Time Sleep: 371
+2023-12-07 10:37:44,290 - INFO - <module> : Time Sleep: 378
+2023-12-07 10:37:51,175 - INFO - <module> : Time Sleep: 385
+2023-12-07 10:37:58,093 - INFO - <module> : Time Sleep: 392
+2023-12-07 10:38:05,054 - INFO - <module> : Time Sleep: 399
+2023-12-07 10:38:11,930 - INFO - <module> : Time Sleep: 406
+2023-12-07 10:38:18,948 - INFO - <module> : Time Sleep: 413
+2023-12-07 10:38:25,916 - INFO - <module> : Time Sleep: 420
+2023-12-07 10:38:32,892 - INFO - <module> : Time Sleep: 427
+2023-12-07 10:38:39,874 - INFO - <module> : Time Sleep: 434
+2023-12-07 10:38:46,898 - INFO - <module> : Time Sleep: 441
+2023-12-07 10:38:53,867 - INFO - <module> : Time Sleep: 448
+2023-12-07 10:39:00,828 - INFO - <module> : Time Sleep: 455
+2023-12-07 10:39:07,820 - INFO - <module> : Time Sleep: 462
+2023-12-07 10:39:14,720 - INFO - <module> : Time Sleep: 469
+2023-12-07 10:39:21,665 - INFO - <module> : Time Sleep: 476
+2023-12-07 10:39:28,604 - INFO - <module> : Time Sleep: 483
+2023-12-07 10:39:35,722 - INFO - <module> : Time Sleep: 490
+2023-12-07 10:39:42,618 - INFO - <module> : Time Sleep: 497
+2023-12-07 10:39:49,644 - INFO - <module> : Time Sleep: 504
+2023-12-07 10:39:56,639 - INFO - <module> : Time Sleep: 511
+2023-12-07 10:40:03,600 - INFO - <module> : Time Sleep: 518
+2023-12-07 10:40:10,503 - INFO - <module> : Time Sleep: 525
+2023-12-07 10:40:17,655 - INFO - <module> : Time Sleep: 532
+2023-12-07 10:40:24,692 - INFO - <module> : Time Sleep: 539
+2023-12-07 10:40:31,584 - INFO - <module> : Time Sleep: 546
+2023-12-07 10:40:38,517 - INFO - <module> : Time Sleep: 553
+2023-12-07 10:40:45,455 - INFO - <module> : Time Sleep: 560
+2023-12-07 10:40:52,481 - INFO - <module> : Time Sleep: 567
+2023-12-07 10:40:59,431 - INFO - <module> : Time Sleep: 574
+2023-12-07 10:41:06,561 - INFO - <module> : Time Sleep: 581
+2023-12-07 10:41:13,492 - INFO - <module> : Time Sleep: 588
+2023-12-07 10:41:20,390 - INFO - <module> : Time Sleep: 595
+2023-12-07 10:41:27,289 - INFO - <module> : Time Sleep: 602
+2023-12-07 10:41:34,247 - INFO - <module> : Time Sleep: 609
+2023-12-07 10:41:41,175 - INFO - <module> : Time Sleep: 616
+2023-12-07 10:41:48,087 - INFO - <module> : Time Sleep: 623
+2023-12-07 10:41:55,047 - INFO - <module> : Time Sleep: 630
+2023-12-07 10:42:02,004 - INFO - <module> : Time Sleep: 637
+2023-12-07 10:42:08,995 - INFO - <module> : Time Sleep: 644
+2023-12-07 10:42:16,006 - INFO - <module> : Time Sleep: 651
+2023-12-07 10:42:23,041 - INFO - <module> : Time Sleep: 658
+2023-12-07 10:42:29,942 - INFO - <module> : Time Sleep: 665
+2023-12-07 10:42:36,849 - INFO - <module> : Time Sleep: 672
+2023-12-07 10:42:43,805 - INFO - <module> : Time Sleep: 679
+2023-12-07 10:42:50,720 - INFO - <module> : Time Sleep: 686
+2023-12-07 10:42:57,743 - INFO - <module> : Time Sleep: 693
+2023-12-07 10:43:04,692 - INFO - <module> : Time Sleep: 700
+2023-12-07 10:43:11,659 - INFO - <module> : Time Sleep: 707
+2023-12-07 10:43:18,588 - INFO - <module> : Time Sleep: 714
+2023-12-07 10:43:25,479 - INFO - <module> : Time Sleep: 721
+2023-12-07 10:43:32,391 - INFO - <module> : Time Sleep: 728
+2023-12-07 10:43:39,436 - INFO - <module> : Time Sleep: 735
+2023-12-07 10:43:46,480 - INFO - <module> : Time Sleep: 742
+2023-12-07 10:43:53,451 - INFO - <module> : Time Sleep: 749
+2023-12-07 10:44:00,726 - INFO - <module> : Time Sleep: 756
+2023-12-07 10:44:07,643 - INFO - <module> : Time Sleep: 763
+2023-12-07 10:44:14,573 - INFO - <module> : Time Sleep: 770
+2023-12-07 10:44:21,547 - INFO - <module> : Time Sleep: 777
+2023-12-07 10:44:28,417 - INFO - <module> : Time Sleep: 784
+2023-12-07 10:44:35,362 - INFO - <module> : Time Sleep: 791
+2023-12-07 10:44:42,292 - INFO - <module> : Time Sleep: 798
+2023-12-07 10:44:49,260 - INFO - <module> : Time Sleep: 805
+2023-12-07 10:44:56,178 - INFO - <module> : Time Sleep: 812
+2023-12-07 10:45:03,259 - INFO - <module> : Time Sleep: 819
+2023-12-07 10:45:10,214 - INFO - <module> : Time Sleep: 826
+2023-12-07 10:45:17,118 - INFO - <module> : Time Sleep: 833
+2023-12-07 10:45:24,147 - INFO - <module> : Time Sleep: 840
+2023-12-07 10:45:31,176 - INFO - <module> : Time Sleep: 847
+2023-12-07 10:45:38,193 - INFO - <module> : Time Sleep: 854
+2023-12-07 10:45:45,070 - INFO - <module> : Time Sleep: 861
+2023-12-07 10:45:52,006 - INFO - <module> : Time Sleep: 868
+2023-12-07 10:45:59,347 - INFO - <module> : Time Sleep: 875
+2023-12-07 10:46:06,221 - INFO - <module> : Time Sleep: 882
+2023-12-07 10:46:13,153 - INFO - <module> : Time Sleep: 889
+2023-12-07 10:46:20,068 - INFO - <module> : Time Sleep: 896
+2023-12-07 10:46:26,960 - INFO - <module> : Time Sleep: 903
+2023-12-07 10:46:33,936 - INFO - <module> : Time Sleep: 910
+2023-12-07 10:46:40,850 - INFO - <module> : Time Sleep: 917
+2023-12-07 10:52:06,515 - INFO - <module> : Time Sleep: 7
+2023-12-07 10:52:13,416 - INFO - <module> : Time Sleep: 14
+2023-12-07 10:52:20,452 - INFO - <module> : Time Sleep: 21
+2023-12-07 10:52:27,629 - INFO - <module> : Time Sleep: 28
+2023-12-07 10:52:34,576 - INFO - <module> : Time Sleep: 35
+2023-12-07 10:52:41,568 - INFO - <module> : Time Sleep: 42
+2023-12-07 10:52:48,602 - INFO - <module> : Time Sleep: 49
+2023-12-07 10:52:55,701 - INFO - <module> : Time Sleep: 56
+2023-12-07 10:53:02,808 - INFO - <module> : Time Sleep: 63
+2023-12-07 10:53:09,801 - INFO - <module> : Time Sleep: 70
+2023-12-07 10:53:16,705 - INFO - <module> : Time Sleep: 77

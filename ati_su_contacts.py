@@ -7,8 +7,13 @@ from custom_utils.scrap_utils import logger
 from pprint import pprint
 log = logger()
 df = pd.read_excel("xlsx_files/ati_multicountry_04.12.2023.xlsx").to_dict("index")
+exists_df = pd.read_excel("xlsx_files/ati_multicountry_contacts_04.12.2023 (not complete).xlsx").to_dict("index")
 
 ati_ids = list(map(lambda x: x['atiId'],df.values()))
+exists_ati_ids = list(map(lambda x: x['atiId'],exists_df.values()))
+
+ati = list(set(ati_ids)-set(exists_ati_ids))
+print(len(ati))
 
 contact_email_url = "https://api.ati.su/v1.0/firms/{}/contacts/summary"
 contacts_emails_headers = {
@@ -21,9 +26,9 @@ contacts_emails_headers = {
 }
 data = []
 
-pbar = tqdm(total = len(ati_ids))
+pbar = tqdm(total = len(ati))
 
-for index, id in enumerate(ati_ids):
+for index, id in enumerate(ati):
     try:
         if index % 7 == 0 and index != 0:
             log.info("Time Sleep: %d" % index)
@@ -67,6 +72,10 @@ for index, id in enumerate(ati_ids):
 
         data.append(d)
         pbar.update()
+    except IndexError as e:
+        print(traceback.print_exc())
+        continue
+    
     except Exception as e:
         print()
         print(e)
@@ -82,7 +91,7 @@ print(len(data))
 df = pd.DataFrame(data=data)
 
 writer = pd.ExcelWriter(
-    f"./{'xlsx_files/ati_multicountry_contacts_04.12.2023'}.xlsx",
+    f"./{'xlsx_files/ati_multicountry_contacts_additional_04.12.2023'}.xlsx",
     engine="xlsxwriter",
     engine_kwargs={"options": {"strings_to_urls": False}},
 )
