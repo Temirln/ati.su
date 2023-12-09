@@ -161,16 +161,16 @@ def parser_data(page, retries=MAX_RETRIES):
         return {}
 
 
-def main(pages, output_file):
-    print("!!! The collection of links to companies !!!")
+def main(pages, output_file,atis):
+    # print("!!! The collection of links to companies !!!")
 
-    with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
-        all_links = []
-        for links in tqdm(pool.imap_unordered(get_all_links, pages), total=len(pages)):
-            all_links.extend(links)
-    print("Collected links:", len(all_links))
+    # with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
+    #     all_links = []
+    #     for links in tqdm(pool.imap_unordered(get_all_links, pages), total=len(pages)):
+    #         all_links.extend(links)
+    # print("Collected links:", len(all_links))
 
-    all_links = [(index + 1, url) for index, url in enumerate(all_links)]
+    all_links = [(index + 1, url) for index, url in enumerate(atis)]
 
     print("!!! Parsing of links !!!")
     with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
@@ -228,17 +228,24 @@ if __name__ == "__main__":
     ]
 
     links = []
-    for id, country_name in country_ids.items():
-        for url in urls:
-            res = requests.get(url.format(geo_id=id, skip=0, take=take))
-            total = res.json()["total_firms_count"]
-            links += [
-                url.format(geo_id=id, skip=take * i, take=take)
-                for i in range(total // take + 1)
-            ]
+    # for id, country_name in country_ids.items():
+    #     for url in urls:
+    #         res = requests.get(url.format(geo_id=id, skip=0, take=take))
+    #         total = res.json()["total_firms_count"]
+    #         links += [
+    #             url.format(geo_id=id, skip=take * i, take=take)
+    #             for i in range(total // take + 1)
+    #         ]
 
-        output_file = "./xlsx_files/ati_rus_transporter_(100-200)_04.12.2023"
+    output_file = "./xlsx_files/ati_rus_the_rest_of_04.12.2023"
 
-    print("Len of Links:", len(links))
+    base_url = "https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/"
+    rest_ati_ids = []
+    with open("logger.log","r") as file:
+        for line in file.readlines():
+            rest_ati_ids.append(f"{base_url}{line[line.find('Index: ')+7:line.find(' Exception')]}")
 
-    main(links[100:200], output_file)
+    # print(rest_ati_ids)
+    # print("Len of Links:", len(links))
+
+    main(links, output_file,rest_ati_ids)

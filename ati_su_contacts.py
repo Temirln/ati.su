@@ -7,7 +7,7 @@ from custom_utils.scrap_utils import logger
 from pprint import pprint
 log = logger()
 df = pd.read_excel("xlsx_files/ati_multicountry_04.12.2023.xlsx").to_dict("index")
-exists_df = pd.read_excel("xlsx_files/ati_multicountry_contacts_04.12.2023 (not complete).xlsx").to_dict("index")
+exists_df = pd.read_excel("xlsx_files/ati_multicountry_emails_04.12.2023 (not complete).xlsx").to_dict("index")
 
 ati_ids = list(map(lambda x: x['atiId'],df.values()))
 exists_ati_ids = list(map(lambda x: x['atiId'],exists_df.values()))
@@ -30,9 +30,9 @@ pbar = tqdm(total = len(ati))
 
 for index, id in enumerate(ati):
     try:
-        if index % 7 == 0 and index != 0:
+        if index % 6 == 0 and index != 0:
             log.info("Time Sleep: %d" % index)
-            time.sleep(5)
+            time.sleep(6)
 
         d = {}
 
@@ -91,7 +91,7 @@ print(len(data))
 df = pd.DataFrame(data=data)
 
 writer = pd.ExcelWriter(
-    f"./{'xlsx_files/ati_multicountry_contacts_additional_04.12.2023'}.xlsx",
+    f"./{'xlsx_files/ati_multicountry_email_additional_04.12.2023'}.xlsx",
     engine="xlsxwriter",
     engine_kwargs={"options": {"strings_to_urls": False}},
 )
