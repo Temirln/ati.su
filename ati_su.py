@@ -239,13 +239,14 @@ if __name__ == "__main__":
 
     output_file = "./xlsx_files/ati_rus_the_rest_of_04.12.2023"
 
-    base_url = "https://ati.su/gw/atiwebroot/public/v1/api/passport/GetFirm/"
     rest_ati_ids = []
     with open("logger.log","r") as file:
         for line in file.readlines():
-            rest_ati_ids.append(f"{base_url}{line[line.find('Index: ')+7:line.find(' Exception')]}")
+            rest_ati_ids.append(line[line.find('occured in')+11:line.find(', error:')])
 
     # print(rest_ati_ids)
-    # print("Len of Links:", len(links))
+    print("Len of Links:", len(rest_ati_ids))
 
     main(links, output_file,rest_ati_ids)
+
+    # You can start from now Temirlan
