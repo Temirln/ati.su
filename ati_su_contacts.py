@@ -17,7 +17,7 @@ print(len(ati))
 
 contact_email_url = "https://api.ati.su/v1.0/firms/{}/contacts/summary"
 contacts_emails_headers = {
-    'Authorization': 'Bearer 448bd9478aab4218a1fb03f41e5df9a0',
+    'Authorization': 'Bearer 8145fc3dcd8d4eec9c2332095fb27e97',
     'Content-Type': 'application/json',
     "Accept": 'application/json',
     "Content-Type": 'application/json',
