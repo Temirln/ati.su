@@ -245,8 +245,8 @@ if __name__ == "__main__":
             rest_ati_ids.append(line[line.find('occured in')+11:line.find(', error:')])
 
     # print(rest_ati_ids)
-    print("Len of Links:", len(rest_ati_ids))
+    print("Len of Links:", len(list(set(rest_ati_ids))))
 
-    main(links, output_file,rest_ati_ids)
+    main(links, output_file,list(set(rest_ati_ids)))
 
     # You can start from now Temirlan
